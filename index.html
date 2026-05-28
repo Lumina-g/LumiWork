@@ -1,0 +1,1282 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" data-theme="light">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LumiWork – شغل كمبيوتر في نفس اليوم | تسليم سريع وأسعار واضحة</title>
+    <meta name="description" content="بخلصلك شغل الكمبيوتر في نفس اليوم — تصميم CV احترافي، صفحة تعريفية لمشروعك، وتنسيق ملفات Word وExcel. سعر واضح من الأول وما بتدفعش غير لو عجبك الشغل. ابعتلي على واتساب وانا هرد عليك خلال 20 دقيقة." />
+    <meta name="keywords" content="شغل كمبيوتر, تصميم CV, صفحة تعريفية, تنسيق ملفات, وورد, إكسيل, نفس اليوم, مصر, فريلانسر, سيرة ذاتية, freelance, CV design, landing page, document formatting, same day delivery, Egypt" />
+    <meta name="author" content="LumiWork" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://lumiwork.example.com/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="LumiWork – شغل كمبيوتر في نفس اليوم | تسليم سريع وأسعار واضحة" />
+    <meta property="og:description" content="بخلصلك شغل الكمبيوتر في نفس اليوم — CV، صفحة تعريفية، وتنسيق ملفات. سعر واضح وما بتدفعش غير لو عجبك." />
+    <meta property="og:url" content="https://lumiwork.example.com/" />
+    <meta property="og:locale" content="ar_EG" />
+    <meta property="og:site_name" content="LumiWork" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="LumiWork – شغل كمبيوتر في نفس اليوم | تسليم سريع وأسعار واضحة" />
+    <meta name="twitter:description" content="بخلصلك شغل الكمبيوتر في نفس اليوم — CV، صفحة تعريفية، وتنسيق ملفات. سعر واضح وما بتدفعش غير لو عجبك." />
+
+    <!-- Structured Data (JSON-LD) for SEO -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Service",
+            "name": "LumiWork - شغل كمبيوتر في نفس اليوم",
+            "description": "خدمات كمبيوتر سريعة تشمل تصميم السيرة الذاتية والصفحات التعريفية وتنسيق الملفات مع تسليم في نفس اليوم. الدفع بعد الاستلام والرضا.",
+            "provider": {
+                "@type": "Person",
+                "name": "LumiWork",
+                "telephone": "+201117212930",
+                "url": "https://wa.me/201117212930",
+                "contactPoint": {
+                    "@type": "ContactPoint",
+                    "telephone": "+201117212930",
+                    "contactType": "customer service",
+                    "availableLanguage": "Arabic"
+                }
+            },
+            "areaServed": {
+                "@type": "Country",
+                "name": "Egypt"
+            },
+            "offers": [
+                { "@type": "Offer", "name": "تصميم CV احترافي", "price": "75", "priceCurrency": "EGP", "description": "تصميم سيرة ذاتية احترافية مع تسليم Word و PDF وتعديل مجاني" },
+                { "@type": "Offer", "name": "صفحة تعريفية لمشروعك", "price": "150", "priceCurrency": "EGP", "description": "صفحة تعريفية كاملة مع استضافة مجانية على GitHub" },
+                { "@type": "Offer", "name": "كتابة وتنسيق ملفات", "price": "10", "priceCurrency": "EGP", "description": "تنسيق ملفات وورد وإكسيل وتحويل لـ PDF – للسعر للصفحة الواحدة" }
+            ],
+            "termsOfService": "الدفع بعد الاستلام والرضا التام عن الشغل"
+        }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <style>
+        /* ─── TOKENS ─── */
+        :root {
+            --ink: #0f1e2d;
+            --dark-surface: #0f1e2d;
+            --bg: #f9f6f1;
+            --white: #ffffff;
+            --gold: #d4860a;
+            --gold-bg: #fdf3dc;
+            --green: #1a6e40;
+            --green-bg: #eaf5ee;
+            --red: #c0392b;
+            --text: #2c2c2c;
+            --muted: #7a7169;
+            --border: #e4dfd6;
+            --shadow: 0 2px 16px rgba(15, 30, 45, .08);
+            --shadow-md: 0 6px 32px rgba(15, 30, 45, .12);
+            --shadow-wa: 0 4px 20px rgba(37, 211, 102, .3);
+            --shadow-wa-hover: 0 8px 28px rgba(37, 211, 102, .38);
+            --shadow-float: 0 6px 28px rgba(37, 211, 102, .45);
+            --shadow-float-hover: 0 10px 36px rgba(37, 211, 102, .5);
+            --testi-bg: rgba(255, 255, 255, .06);
+            --testi-border: rgba(255, 255, 255, .1);
+            --testi-hover-bg: rgba(255, 255, 255, .1);
+            --testi-text: rgba(255, 255, 255, .85);
+            --testi-author: rgba(255, 255, 255, .5);
+            --hero-strip-text: rgba(255, 255, 255, .75);
+            --hero-strip-strong: #ffffff;
+            --footer-text: rgba(255, 255, 255, .45);
+            --footer-logo: rgba(255, 255, 255, .85);
+            --ci-wa-bg: #dcf8e8;
+            --ci-fb-bg: #dde8f8;
+            --pay-pill-border: #a8dcba;
+            --step-s2-bg: var(--dark-surface);
+            --nav-border: var(--border);
+            --r: 12px;
+            --font: 'Cairo', sans-serif;
+            --transition-theme: background-color 0.35s ease, color 0.35s ease, border-color 0.35s ease, box-shadow 0.35s ease;
+        }
+
+        /* ─── DARK MODE ─── */
+        [data-theme="dark"] {
+            --ink: #e6edf3;
+            --dark-surface: #06090f;
+            --bg: #0d1117;
+            --white: #161b22;
+            --gold: #d2991d;
+            --gold-bg: #2d2010;
+            --green: #3fb950;
+            --green-bg: #162916;
+            --red: #e0554a;
+            --text: #c9d1d9;
+            --muted: #8b949e;
+            --border: #30363d;
+            --shadow: 0 2px 16px rgba(0, 0, 0, .35);
+            --shadow-md: 0 6px 32px rgba(0, 0, 0, .5);
+            --shadow-wa: 0 4px 20px rgba(37, 211, 102, .25);
+            --shadow-wa-hover: 0 8px 28px rgba(37, 211, 102, .35);
+            --shadow-float: 0 6px 28px rgba(37, 211, 102, .35);
+            --shadow-float-hover: 0 10px 36px rgba(37, 211, 102, .45);
+            --testi-bg: rgba(255, 255, 255, .04);
+            --testi-border: rgba(255, 255, 255, .08);
+            --testi-hover-bg: rgba(255, 255, 255, .07);
+            --testi-text: rgba(255, 255, 255, .8);
+            --testi-author: rgba(255, 255, 255, .4);
+            --hero-strip-text: rgba(255, 255, 255, .65);
+            --hero-strip-strong: #ffffff;
+            --footer-text: rgba(255, 255, 255, .35);
+            --footer-logo: rgba(255, 255, 255, .75);
+            --ci-wa-bg: #1a3322;
+            --ci-fb-bg: #1a2433;
+            --pay-pill-border: #2d5438;
+            --step-s2-bg: #1a2430;
+            --nav-border: #30363d;
+        }
+
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        html {
+            scroll-behavior: smooth;
+            scroll-padding-top: 80px;
+        }
+        body {
+            background: var(--bg);
+            color: var(--text);
+            font-family: var(--font);
+            font-size: 16px;
+            line-height: 1.65;
+            -webkit-font-smoothing: antialiased;
+            transition: var(--transition-theme);
+        }
+        img {
+            display: block;
+            max-width: 100%;
+        }
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        /* ─── FOCUS-VISIBLE (ACCESSIBILITY) ─── */
+        :focus-visible {
+            outline: 2.5px solid var(--gold);
+            outline-offset: 3px;
+            border-radius: 4px;
+        }
+        a:focus-visible,
+        button:focus-visible {
+            outline: 2.5px solid var(--gold);
+            outline-offset: 3px;
+            border-radius: 8px;
+        }
+
+        /* ─── NAV ─── */
+        nav {
+            background: var(--white);
+            border-bottom: 1px solid var(--nav-border);
+            position: sticky;
+            top: 0;
+            z-index: 200;
+            padding: 0 24px;
+            height: 62px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            transition: var(--transition-theme);
+        }
+        .nav-left-group {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .logo {
+            font-size: 1.25rem;
+            font-weight: 900;
+            color: var(--ink);
+            letter-spacing: -0.5px;
+            transition: color 0.35s ease;
+        }
+        .logo-dot {
+            color: var(--gold);
+            transition: color 0.35s ease;
+        }
+        .nav-wa {
+            display: inline-flex;
+            align-items: center;
+            gap: 7px;
+            background: #25d366;
+            color: #fff;
+            font-weight: 700;
+            font-size: .85rem;
+            padding: 9px 18px;
+            border-radius: 100px;
+            transition: background .2s, transform .15s;
+            white-space: nowrap;
+        }
+        .nav-wa:hover {
+            background: #20b858;
+            transform: translateY(-1px);
+        }
+        .nav-wa svg {
+            width: 16px;
+            height: 16px;
+            flex-shrink: 0;
+        }
+
+        /* ─── THEME TOGGLE ─── */
+        .theme-toggle {
+            background: transparent;
+            border: 1.5px solid var(--border);
+            color: var(--text);
+            cursor: pointer;
+            width: 38px;
+            height: 38px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: var(--transition-theme);
+            flex-shrink: 0;
+            position: relative;
+        }
+        .theme-toggle:hover {
+            border-color: var(--gold);
+            color: var(--gold);
+            transform: rotate(15deg);
+            transition: border-color .2s, color .2s, transform .3s ease;
+        }
+        .theme-toggle svg {
+            width: 18px;
+            height: 18px;
+            position: absolute;
+            transition: opacity .25s ease, transform .35s ease;
+        }
+        .theme-toggle .icon-sun {
+            opacity: 0;
+            transform: scale(0.5) rotate(-90deg);
+        }
+        .theme-toggle .icon-moon {
+            opacity: 1;
+            transform: scale(1) rotate(0deg);
+        }
+        [data-theme="dark"] .theme-toggle .icon-sun {
+            opacity: 1;
+            transform: scale(1) rotate(0deg);
+        }
+        [data-theme="dark"] .theme-toggle .icon-moon {
+            opacity: 0;
+            transform: scale(0.5) rotate(90deg);
+        }
+
+        /* ─── WRAP ─── */
+        .wrap {
+            max-width: 760px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* ─── HERO ─── */
+        #hero {
+            padding: 64px 0 0;
+            background: var(--white);
+            border-bottom: 1px solid var(--border);
+            overflow: hidden;
+            position: relative;
+            transition: var(--transition-theme);
+        }
+        .hero-tag {
+            display: inline-block;
+            background: var(--green-bg);
+            color: var(--green);
+            font-size: .78rem;
+            font-weight: 700;
+            padding: 5px 13px;
+            border-radius: 100px;
+            margin-bottom: 22px;
+            letter-spacing: .3px;
+            transition: var(--transition-theme);
+        }
+        .hero-tag::before {
+            content: '● ';
+            font-size: .6rem;
+            vertical-align: middle;
+        }
+        #hero h1 {
+            font-size: clamp(2rem, 5.5vw, 3.2rem);
+            font-weight: 900;
+            line-height: 1.2;
+            color: var(--ink);
+            margin-bottom: 18px;
+            letter-spacing: -1px;
+            transition: color 0.35s ease;
+        }
+        .hero-u {
+            position: relative;
+            display: inline-block;
+            white-space: nowrap;
+        }
+        .hero-u::after {
+            content: '';
+            position: absolute;
+            bottom: 2px;
+            right: 0;
+            left: 0;
+            height: 4px;
+            background: var(--gold);
+            border-radius: 2px;
+            transition: background 0.35s ease;
+        }
+        #hero p {
+            font-size: 1.05rem;
+            color: var(--muted);
+            max-width: 500px;
+            margin-bottom: 32px;
+            transition: color 0.35s ease;
+        }
+        .hero-chips {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-bottom: 36px;
+        }
+        .chip {
+            background: var(--bg);
+            border: 1px solid var(--border);
+            font-size: .8rem;
+            font-weight: 600;
+            padding: 6px 14px;
+            border-radius: 100px;
+            color: var(--text);
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            transition: var(--transition-theme);
+        }
+        .chip-icon {
+            font-size: .9rem;
+            line-height: 1;
+        }
+        .hero-ctas {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+            margin-bottom: 48px;
+        }
+        .btn-wa {
+            display: inline-flex;
+            align-items: center;
+            gap: 9px;
+            background: #25d366;
+            color: #fff;
+            font-weight: 800;
+            font-size: 1rem;
+            padding: 15px 28px;
+            border-radius: var(--r);
+            box-shadow: var(--shadow-wa);
+            transition: transform .18s, box-shadow .18s, background .2s;
+        }
+        .btn-wa:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-wa-hover);
+            background: #20b858;
+        }
+        .btn-wa svg {
+            width: 20px;
+            height: 20px;
+        }
+        .btn-down {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            border: 1.5px solid var(--border);
+            color: var(--text);
+            font-weight: 600;
+            font-size: 1rem;
+            padding: 15px 24px;
+            border-radius: var(--r);
+            background: transparent;
+            transition: border-color .18s, background .18s, color .18s, transform .15s;
+            cursor: pointer;
+        }
+        .btn-down:hover {
+            border-color: var(--ink);
+            background: var(--bg);
+            transform: translateY(-2px);
+        }
+        .btn-down:active {
+            transform: translateY(0);
+        }
+        /* hero bottom strip */
+        .hero-strip {
+            background: var(--dark-surface);
+            color: var(--hero-strip-text);
+            font-size: .82rem;
+            font-weight: 500;
+            padding: 13px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+            margin: 0 -20px;
+            letter-spacing: .2px;
+            transition: var(--transition-theme);
+        }
+        .hero-strip strong {
+            color: var(--hero-strip-strong);
+            font-weight: 700;
+        }
+
+        /* ─── SECTION COMMON ─── */
+        section {
+            padding: 64px 0;
+            transition: var(--transition-theme);
+        }
+        .sec-pre {
+            font-size: .73rem;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: var(--gold);
+            margin-bottom: 8px;
+            transition: color 0.35s ease;
+        }
+        .sec-h {
+            font-size: clamp(1.5rem, 3.5vw, 2.1rem);
+            font-weight: 800;
+            color: var(--ink);
+            margin-bottom: 36px;
+            line-height: 1.25;
+            transition: color 0.35s ease;
+        }
+
+        /* ─── HOW IT WORKS ─── */
+        #how {
+            background: var(--white);
+            border-top: 1px solid var(--border);
+            border-bottom: 1px solid var(--border);
+            transition: var(--transition-theme);
+        }
+        .steps {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 0;
+            position: relative;
+        }
+        .steps::before {
+            content: '';
+            position: absolute;
+            top: 28px;
+            right: 12.5%;
+            left: 12.5%;
+            height: 2px;
+            background: repeating-linear-gradient(to left,
+                    var(--border) 0px, var(--border) 8px,
+                    transparent 8px, transparent 16px);
+            z-index: 0;
+            transition: background 0.35s ease;
+        }
+        .step {
+            text-align: center;
+            padding: 0 14px;
+            position: relative;
+            z-index: 1;
+        }
+        .step-num {
+            width: 56px;
+            height: 56px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.3rem;
+            font-weight: 900;
+            margin: 0 auto 16px;
+            position: relative;
+            z-index: 2;
+            transition: var(--transition-theme);
+        }
+        .step-num.s1 {
+            background: var(--gold-bg);
+            color: var(--gold);
+            border: 2px solid #f0c76a;
+        }
+        .step-num.s2 {
+            background: var(--step-s2-bg);
+            color: #fff;
+        }
+        .step-num.s3 {
+            background: var(--green-bg);
+            color: var(--green);
+            border: 2px solid #8fcfaa;
+        }
+        .step-title {
+            font-weight: 800;
+            font-size: .95rem;
+            color: var(--ink);
+            margin-bottom: 6px;
+            transition: color 0.35s ease;
+        }
+        .step-desc {
+            font-size: .8rem;
+            color: var(--muted);
+            line-height: 1.55;
+            transition: color 0.35s ease;
+        }
+
+        /* ─── SERVICES ─── */
+        #services {
+            background: var(--bg);
+            transition: var(--transition-theme);
+        }
+        .services-list {
+            display: grid;
+            gap: 16px;
+        }
+        .svc {
+            background: var(--white);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 24px;
+            display: grid;
+            grid-template-columns: 1fr auto;
+            grid-template-rows: auto auto;
+            column-gap: 20px;
+            row-gap: 14px;
+            align-items: start;
+            transition: border-color .2s, box-shadow .2s, background .35s ease;
+        }
+        .svc:hover {
+            border-color: #c8c2b6;
+            box-shadow: var(--shadow-md);
+        }
+        [data-theme="dark"] .svc:hover {
+            border-color: #4a5060;
+        }
+        .svc-name {
+            font-size: 1.1rem;
+            font-weight: 800;
+            color: var(--ink);
+            margin-bottom: 8px;
+            transition: color 0.35s ease;
+        }
+        .svc-bullets {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+        .svc-bullets li {
+            font-size: .82rem;
+            color: var(--muted);
+            display: flex;
+            align-items: baseline;
+            gap: 7px;
+            transition: color 0.35s ease;
+        }
+        .svc-bullets li::before {
+            content: '';
+            width: 5px;
+            height: 5px;
+            border-radius: 50%;
+            background: var(--border);
+            flex-shrink: 0;
+            margin-top: 2px;
+            transition: background 0.35s ease;
+        }
+        .svc-price-col {
+            text-align: left;
+        }
+        .svc-price {
+            font-size: 1.75rem;
+            font-weight: 900;
+            color: var(--ink);
+            line-height: 1;
+            transition: color 0.35s ease;
+        }
+        .svc-price sup {
+            font-size: .9rem;
+            font-weight: 600;
+            color: var(--muted);
+            vertical-align: super;
+            transition: color 0.35s ease;
+        }
+        .svc-price-sub {
+            font-size: .73rem;
+            color: var(--muted);
+            margin-top: 4px;
+            text-align: left;
+            transition: color 0.35s ease;
+        }
+        .pay-pill {
+            grid-column: 1 / -1;
+            display: inline-flex;
+            align-items: center;
+            gap: 7px;
+            background: var(--green-bg);
+            border: 1px solid var(--pay-pill-border);
+            color: var(--green);
+            font-size: .78rem;
+            font-weight: 700;
+            padding: 7px 14px;
+            border-radius: 100px;
+            width: fit-content;
+            transition: var(--transition-theme);
+        }
+        .pay-pill svg {
+            width: 13px;
+            height: 13px;
+            flex-shrink: 0;
+        }
+        /* gold highlight on price when service is "featured" */
+        .svc.featured {
+            border-color: var(--gold);
+            border-width: 1.5px;
+        }
+        .svc.featured .svc-price {
+            color: var(--gold);
+        }
+
+        /* ─── TESTIMONIALS ─── */
+        #testimonials {
+            background: var(--dark-surface);
+            color: #fff;
+            padding: 64px 0;
+            transition: var(--transition-theme);
+        }
+        #testimonials .sec-pre {
+            color: #8ab4cc;
+        }
+        [data-theme="dark"] #testimonials .sec-pre {
+            color: #7aa8c0;
+        }
+        #testimonials .sec-h {
+            color: #fff;
+        }
+        .testi-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 16px;
+        }
+        .testi {
+            background: var(--testi-bg);
+            border: 1px solid var(--testi-border);
+            border-radius: var(--r);
+            padding: 22px 20px;
+            transition: background .2s, border-color .2s;
+        }
+        .testi:hover {
+            background: var(--testi-hover-bg);
+        }
+        .testi-stars {
+            color: var(--gold);
+            font-size: .85rem;
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+        }
+        .testi-text {
+            font-size: .88rem;
+            line-height: 1.65;
+            color: var(--testi-text);
+            margin-bottom: 14px;
+        }
+        .testi-author {
+            font-size: .78rem;
+            font-weight: 700;
+            color: var(--testi-author);
+        }
+
+        /* ─── CONTACT ─── */
+        #contact {
+            background: var(--bg);
+            transition: var(--transition-theme);
+        }
+        .contact-box {
+            background: var(--white);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 40px 32px;
+            text-align: center;
+            transition: var(--transition-theme);
+        }
+        .contact-box .sec-h {
+            margin-bottom: 6px;
+        }
+        .contact-box-sub {
+            color: var(--muted);
+            font-size: .9rem;
+            margin-bottom: 32px;
+            transition: color 0.35s ease;
+        }
+        .contact-items {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            max-width: 400px;
+            margin: 0 auto 24px;
+        }
+        .ci {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            background: var(--bg);
+            border: 1px solid var(--border);
+            border-radius: var(--r);
+            padding: 15px 18px;
+            text-align: right;
+            transition: border-color .2s, transform .2s, background .35s ease;
+        }
+        .ci:hover {
+            border-color: #b8b0a4;
+            transform: translateY(-2px);
+        }
+        [data-theme="dark"] .ci:hover {
+            border-color: #4a5060;
+        }
+        .ci-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            font-size: 1.1rem;
+            transition: background 0.35s ease;
+        }
+        .ci-icon.wa {
+            background: var(--ci-wa-bg);
+        }
+        .ci-icon.fb {
+            background: var(--ci-fb-bg);
+        }
+        .ci-label {
+            font-size: .72rem;
+            color: var(--muted);
+            margin-bottom: 2px;
+            transition: color 0.35s ease;
+        }
+        .ci-val {
+            font-size: .97rem;
+            font-weight: 800;
+            color: var(--ink);
+            transition: color 0.35s ease;
+        }
+        .ci-note {
+            font-size: .72rem;
+            color: var(--green);
+            margin-top: 2px;
+            font-weight: 600;
+            transition: color 0.35s ease;
+        }
+        .contact-guarantee {
+            font-size: .85rem;
+            color: var(--muted);
+            border-top: 1px solid var(--border);
+            padding-top: 22px;
+            margin-top: 4px;
+            transition: var(--transition-theme);
+        }
+        .contact-guarantee strong {
+            color: var(--ink);
+            transition: color 0.35s ease;
+        }
+
+        /* ─── FOOTER ─── */
+        footer {
+            background: var(--dark-surface);
+            color: var(--footer-text);
+            text-align: center;
+            padding: 24px 20px;
+            font-size: .78rem;
+            transition: var(--transition-theme);
+        }
+        footer .logo {
+            color: var(--footer-logo);
+            font-size: 1rem;
+            display: inline-block;
+            margin-bottom: 5px;
+            transition: color 0.35s ease;
+        }
+
+        /* ─── FLOATING WHATSAPP ─── */
+        .float-wa {
+            position: fixed;
+            bottom: 22px;
+            left: 20px;
+            z-index: 999;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            background: #25d366;
+            color: #fff;
+            font-weight: 700;
+            font-size: .88rem;
+            padding: 13px 20px;
+            border-radius: 100px;
+            box-shadow: var(--shadow-float);
+            transition: transform .2s, box-shadow .2s, background .2s;
+            animation: float-in .6s .8s both ease-out;
+        }
+        .float-wa:hover {
+            transform: translateY(-3px) scale(1.02);
+            box-shadow: var(--shadow-float-hover);
+            background: #20b858;
+        }
+        .float-wa svg {
+            width: 19px;
+            height: 19px;
+            flex-shrink: 0;
+        }
+        @keyframes float-in {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* ─── MOBILE BOTTOM BAR ─── */
+        .mobile-bar {
+            display: none;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: var(--white);
+            border-top: 1px solid var(--border);
+            padding: 10px 16px 14px;
+            z-index: 300;
+            transition: var(--transition-theme);
+        }
+        .mobile-bar a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 9px;
+            background: #25d366;
+            color: #fff;
+            font-weight: 800;
+            font-size: 1rem;
+            padding: 14px;
+            border-radius: var(--r);
+            transition: background .2s;
+        }
+        .mobile-bar a:hover {
+            background: #20b858;
+        }
+        .mobile-bar svg {
+            width: 20px;
+            height: 20px;
+        }
+
+        /* ─── REVEAL ─── */
+        [data-r] {
+            opacity: 0;
+            transform: translateY(22px);
+            transition: opacity .55s ease, transform .55s ease;
+        }
+        [data-r].in {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        [data-r][data-d="1"] {
+            transition-delay: .1s;
+        }
+        [data-r][data-d="2"] {
+            transition-delay: .2s;
+        }
+        [data-r][data-d="3"] {
+            transition-delay: .3s;
+        }
+
+        /* ─── RESPONSIVE ─── */
+        @media (max-width: 600px) {
+            .steps {
+                grid-template-columns: 1fr;
+                gap: 28px;
+            }
+            .steps::before {
+                display: none;
+            }
+            .step {
+                display: flex;
+                align-items: flex-start;
+                gap: 16px;
+                text-align: right;
+            }
+            .step-num {
+                flex-shrink: 0;
+                margin: 0;
+                width: 48px;
+                height: 48px;
+                font-size: 1.1rem;
+            }
+            .svc {
+                grid-template-columns: 1fr;
+                grid-template-rows: auto;
+            }
+            .svc-price-col {
+                display: flex;
+                align-items: baseline;
+                gap: 8px;
+            }
+            .svc-price-sub {
+                margin-top: 0;
+            }
+            .contact-box {
+                padding: 28px 18px;
+            }
+            .float-wa {
+                display: none;
+            }
+            .mobile-bar {
+                display: block;
+            }
+            body {
+                padding-bottom: 72px;
+            }
+            .testi-grid {
+                grid-template-columns: 1fr;
+            }
+            .nav-wa {
+                font-size: .75rem;
+                padding: 7px 12px;
+                gap: 5px;
+            }
+            .nav-wa svg {
+                width: 14px;
+                height: 14px;
+            }
+            .theme-toggle {
+                width: 34px;
+                height: 34px;
+            }
+            .theme-toggle svg {
+                width: 16px;
+                height: 16px;
+            }
+            .nav-left-group {
+                gap: 6px;
+            }
+            nav {
+                padding: 0 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- ─── FLOATING WA ─── -->
+    <a href="https://wa.me/201117212930" target="_blank" rel="noopener noreferrer" class="float-wa" aria-label="تواصل عبر واتساب">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+        واتساب دلوقتي
+    </a>
+    <!-- ─── MOBILE BAR ─── -->
+    <div class="mobile-bar">
+        <a href="https://wa.me/201117212930" target="_blank" rel="noopener noreferrer" aria-label="تواصل عبر واتساب من الموبايل">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+            ابعتلي على واتساب دلوقتي
+        </a>
+    </div>
+    <!-- ─── NAV ─── -->
+    <nav role="navigation" aria-label="القائمة الرئيسية">
+        <span class="logo">Lumi<span class="logo-dot">.</span>Work</span>
+        <div class="nav-left-group">
+            <button class="theme-toggle" aria-label="تبديل الوضع الليلي والنهاري" title="تبديل المظهر الداكن / الفاتح">
+                <!-- Sun icon (visible in dark mode) -->
+                <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="5" />
+                    <line x1="12" y1="1" x2="12" y2="3" />
+                    <line x1="12" y1="21" x2="12" y2="23" />
+                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+                    <line x1="1" y1="12" x2="3" y2="12" />
+                    <line x1="21" y1="12" x2="23" y2="12" />
+                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+                </svg>
+                <!-- Moon icon (visible in light mode) -->
+                <svg class="icon-moon" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75 9.75 9.75 0 0 1 8.25 6c0-.698.074-1.378.213-2.028a9.72 9.72 0 0 0-3.278 2.028A9.75 9.75 0 1 0 21.752 15.002z" />
+                </svg>
+            </button>
+            <a href="https://wa.me/201117212930" target="_blank" rel="noopener noreferrer" class="nav-wa" aria-label="تواصل عبر واتساب">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+                ابعتلي
+            </a>
+        </div>
+    </nav>
+    <!-- ─── HERO ─── -->
+    <section id="hero">
+        <div class="wrap">
+            <div class="hero-tag" data-r>متواجد دلوقتي</div>
+            <h1 data-r data-d="1">
+                بخلصلك شغل الكمبيوتر<br>
+                اللي <span class="hero-u">معطلك</span><br>
+                في نفس اليوم
+            </h1>
+            <p data-r data-d="2">
+                شغل سريع، سعر واضح من الأول، وما بتدفعش غير لو الشغل عجبك.
+            </p>
+            <div class="hero-chips" data-r data-d="2">
+                <span class="chip"><span class="chip-icon">⚡</span> تسليم نفس اليوم</span>
+                <span class="chip"><span class="chip-icon">💰</span> سعر واضح من الأول</span>
+                <span class="chip"><span class="chip-icon">✓</span> ما بتدفعش غير لو عجبك</span>
+            </div>
+            <div class="hero-ctas" data-r data-d="3">
+                <a href="https://wa.me/201117212930" target="_blank" rel="noopener noreferrer" class="btn-wa" aria-label="تواصل عبر واتساب الآن">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+                    ابعتلي على واتساب
+                </a>
+                <a href="#services" class="btn-down" aria-label="الانتقال إلى قسم الأسعار">اعرف الأسعار ↓</a>
+            </div>
+        </div>
+        <div class="hero-strip">
+            برد عليك أنا شخصياً خلال &nbsp;<strong>20 دقيقة بالكتير</strong>&nbsp; — مش call center ومش بوت
+        </div>
+    </section>
+    <!-- ─── HOW IT WORKS ─── -->
+    <section id="how">
+        <div class="wrap">
+            <p class="sec-pre" data-r>بشتغل ازاي؟</p>
+            <h2 class="sec-h" data-r data-d="1">3 خطوات وخلاص</h2>
+            <div class="steps">
+                <div class="step" data-r>
+                    <div class="step-num s1">١</div>
+                    <div>
+                        <div class="step-title">ابعتلي على واتساب</div>
+                        <div class="step-desc">قولي إيه اللي محتاجه، وأنا هرد عليك في 20 دقيقة وأقولك السعر قبل ما تقول أوكيه</div>
+                    </div>
+                </div>
+                <div class="step" data-r data-d="1">
+                    <div class="step-num s2">٢</div>
+                    <div>
+                        <div class="step-title">أشتغل وأسلمك</div>
+                        <div class="step-desc">بخلص الشغل في نفس اليوم عادةً، ولو في ضغط أو طلب كبير على الأكتر يومين</div>
+                    </div>
+                </div>
+                <div class="step" data-r data-d="2">
+                    <div class="step-num s3">٣</div>
+                    <div>
+                        <div class="step-title">تدفع لو عجبك</div>
+                        <div class="step-desc">ما بتدفعش غير بعد ما تستلم الشغل وتتأكد إنه تمام — مش العكس</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ─── SERVICES ─── -->
+    <section id="services">
+        <div class="wrap">
+            <p class="sec-pre" data-r>الخدمات والأسعار</p>
+            <h2 class="sec-h" data-r data-d="1">إيه اللي بقدر أعمله معاك؟</h2>
+            <div class="services-list">
+                <!-- CV -->
+                <div class="svc" data-r>
+                    <div>
+                        <div class="svc-name">تصميم CV يخليك تتقبل</div>
+                        <ul class="svc-bullets">
+                            <li>تصميم احترافي يناسب المجال اللي بتشتغل فيه</li>
+                            <li>بتستلم فايل Word + PDF جاهزين</li>
+                            <li>تعديل مجاني مرة واحدة بعد الاستلام</li>
+                        </ul>
+                    </div>
+                    <div class="svc-price-col">
+                        <div class="svc-price">75<sup> جنيه</sup></div>
+                        <div class="svc-price-sub">سعر ثابت</div>
+                    </div>
+                    <div class="pay-pill">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                        الدفع بعد ما تستلم وتطمن
+                    </div>
+                </div>
+                <!-- Page -->
+                <div class="svc featured" data-r data-d="1">
+                    <div>
+                        <div class="svc-name">صفحة تعريفية لمشروعك</div>
+                        <ul class="svc-bullets">
+                            <li>بالصور والبيانات اللي أنت هتديهالي</li>
+                            <li>استضافة مجانية على GitHub — مش هتدفع إيجار سيرفر</li>
+                            <li>لو عندك دومين بدخله وبربطه — ولو محتاج دومين بنتفق على سعره</li>
+                        </ul>
+                    </div>
+                    <div class="svc-price-col">
+                        <div class="svc-price">150<sup> جنيه</sup></div>
+                        <div class="svc-price-sub">+ الدومين لو طلبته</div>
+                    </div>
+                    <div class="pay-pill">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                        الدفع بعد ما تستلم وتطمن
+                    </div>
+                </div>
+                <!-- Files -->
+                <div class="svc" data-r data-d="2">
+                    <div>
+                        <div class="svc-name">كتابة وتنسيق ملفات</div>
+                        <ul class="svc-bullets">
+                            <li>وورد، إكسيل، وتحويل لـ PDF</li>
+                            <li>بالشكل اللي أنت عايزه بالظبط</li>
+                            <li>سريع ومش هتلاقي غلط</li>
+                        </ul>
+                    </div>
+                    <div class="svc-price-col">
+                        <div class="svc-price">10<sup> جنيه</sup></div>
+                        <div class="svc-price-sub">للصفحة الواحدة</div>
+                    </div>
+                    <div class="pay-pill">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                        الدفع بعد ما تستلم وتطمن
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ─── TESTIMONIALS ─── -->
+    <section id="testimonials">
+        <div class="wrap">
+            <p class="sec-pre" data-r>بيقولوا إيه؟</p>
+            <h2 class="sec-h" data-r data-d="1">ناس اشتغلنا مع بعض</h2>
+            <div class="testi-grid">
+                <div class="testi" data-r>
+                    <div class="testi-stars" aria-label="تقييم 5 نجوم">★★★★★</div>
+                    <p class="testi-text">طلبت CV وكنت محتاجاه نفس اليوم، سلّمهولي في 3 ساعات بالظبط. الشغل كان أحسن مما توقعت وعدّل عليه مرة تانية من غير كلام.</p>
+                    <div class="testi-author">— أحمد م. · طالب جامعي</div>
+                </div>
+                <div class="testi" data-r data-d="1">
+                    <div class="testi-stars" aria-label="تقييم 5 نجوم">★★★★★</div>
+                    <p class="testi-text">عملتلي صفحة للمشروع بتاعي، بيشتغل كويس وفاهم اللي أنا عايزه من غير ما أشرحله كتير. والسعر محترم جداً.</p>
+                    <div class="testi-author">— مروى ك. · صاحبة مشروع صغير</div>
+                </div>
+                <div class="testi" data-r data-d="2">
+                    <div class="testi-stars" aria-label="تقييم 5 نجوم">★★★★★</div>
+                    <p class="testi-text">محل بيلي عندي، كنت محتاج ملفات إكسيل للجرد. شغّلته وخلّص في نفس اليوم وما اتأخرش. جدع وكلمته واحدة.</p>
+                    <div class="testi-author">— أبو محمد · صاحب محل</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ─── CONTACT ─── -->
+    <section id="contact">
+        <div class="wrap">
+            <div class="contact-box" data-r>
+                <p class="sec-pre">تواصل معايا</p>
+                <h2 class="sec-h">قولي أنت عايز إيه</h2>
+                <p class="contact-box-sub">
+                    بردّ عليك أنا شخصياً — مش هتكلم حد تاني ولا هتستنى يوم عشان حد يشوف رسالتك
+                </p>
+                <div class="contact-items">
+                    <a href="https://wa.me/201117212930" target="_blank" rel="noopener noreferrer" class="ci" aria-label="تواصل عبر واتساب – 01117212930">
+                        <div class="ci-icon wa">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="#25d366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+                        </div>
+                        <div>
+                            <div class="ci-label">واتساب — الأسرع</div>
+                            <div class="ci-val">01117212930</div>
+                            <div class="ci-note">برد خلال 20 دقيقة بالكتير · متواجد من [ ] لـ [ ]</div>
+                        </div>
+                    </a>
+                    <a href="[FACEBOOK_LINK]" target="_blank" rel="noopener noreferrer" class="ci" aria-label="تواصل عبر فيسبوك – LumiWork">
+                        <div class="ci-icon fb">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="#1877f2"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                        </div>
+                        <div>
+                            <div class="ci-label">فيسبوك</div>
+                            <div class="ci-val">LumiWork</div>
+                            <div class="ci-note">بردّ نفس اليوم</div>
+                        </div>
+                    </a>
+                </div>
+                <p class="contact-guarantee">
+                    <strong>كلمتي واحدة:</strong> لو الشغل مش عاجبك — مش هتدفع ولا قرش.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- ─── FOOTER ─── -->
+    <footer>
+        <span class="logo">Lumi<span class="logo-dot">.</span>Work</span>
+        <p>شغل سريع · أسعار واضحة · كلمة واحدة</p>
+    </footer>
+    <script>
+        // ─── THEME MANAGEMENT ───
+        (function() {
+            const html = document.documentElement;
+            const toggleBtn = document.querySelector('.theme-toggle');
+
+            function getPreferredTheme() {
+                const saved = localStorage.getItem('lumiwork-theme');
+                if (saved === 'dark' || saved === 'light') return saved;
+                return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+            }
+
+            function applyTheme(theme) {
+                html.setAttribute('data-theme', theme);
+                localStorage.setItem('lumiwork-theme', theme);
+                // Update toggle button aria-label
+                if (toggleBtn) {
+                    toggleBtn.setAttribute('aria-label',
+                        theme === 'dark' ? 'التبديل إلى الوضع النهاري' : 'التبديل إلى الوضع الليلي');
+                    toggleBtn.setAttribute('title',
+                        theme === 'dark' ? 'التبديل إلى المظهر الفاتح' : 'التبديل إلى المظهر الداكن');
+                }
+            }
+
+            // Apply on load
+            const currentTheme = getPreferredTheme();
+            applyTheme(currentTheme);
+
+            // Toggle on click
+            if (toggleBtn) {
+                toggleBtn.addEventListener('click', function() {
+                    const newTheme = html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+                    applyTheme(newTheme);
+                });
+            }
+
+            // Listen for system preference changes (only if user hasn't manually set a preference)
+            window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function(e) {
+                if (!localStorage.getItem('lumiwork-theme')) {
+                    applyTheme(e.matches ? 'dark' : 'light');
+                }
+            });
+        })();
+
+        // ─── SCROLL REVEAL ───
+        const obs = new IntersectionObserver(entries => {
+            entries.forEach(e => {
+                if (e.isIntersecting) {
+                    e.target.classList.add('in');
+                    obs.unobserve(e.target);
+                }
+            });
+        }, { threshold: 0.1 });
+        document.querySelectorAll('[data-r]').forEach(el => obs.observe(el));
+
+        // Trigger above-fold items immediately on load
+        window.addEventListener('DOMContentLoaded', () => {
+            document.querySelectorAll('#hero [data-r]').forEach(el => {
+                setTimeout(() => el.classList.add('in'), (parseInt(el.dataset.d || 0)) * 140 + 80);
+            });
+        });
+
+        // ─── SMOOTH SCROLL FOR THE "اعرف الأسعار" BUTTON ───
+        document.querySelectorAll('a[href="#services"]').forEach(link => {
+            link.addEventListener('click', function(e) {
+                const target = document.querySelector('#services');
+                if (target) {
+                    e.preventDefault();
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
